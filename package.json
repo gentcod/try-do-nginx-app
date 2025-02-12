@@ -1,0 +1,15 @@
+{
+  "name": "do-nginx-test",
+  "version": "1.0.0",
+  "description": "A simple Node.js app to test do-nginx-app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "do-nginx-app": "^1.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
