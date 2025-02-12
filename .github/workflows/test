@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout NodeJS
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Run Do-nginx
-      - uses: gentcod/do-nginx-app@v2
+        uses: gentcod/do-nginx-app@v2
         with:
          host: ${{ secrets.HOST }}
          user: ${{ secrets.USER }}
